@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  /* background-color: #00edc6; */
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/cartographer.png"); */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  padding: 0 16px;
+}
+
+
+
+header {
+  position: relative;
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #862B0D;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+footer {
+  position: fixed;
+  margin-left: 38rem;
+  bottom: 15px;
+  height: 2.5rem;
+}
+
+footer:hover p{
+  color: blue; 
+}
+
+footer:hover span{
+  color: #f5ba13;
+  
+}
+footer:hover a{
+  color: red;
+}
+
+
+.copyright{
+  margin-left: 50px;
+}
+
+footer p {
+  color: #ccc;
+}
+
+
+footer span{
+  color: #FF2171;
+}
+
+.myName {
+  text-decoration: none;
+}
+
+
+
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: red;
+  border: none;
+  width: 30px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+
+form.create-note {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+.heading:focus { 
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 20px #719ECE;
+}
+
+.content:focus { 
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  
+  footer{
+    margin-left: 3rem;
+  }
+
+  form.create-note{
+    width: 280px;
+  }
+
+  .note { 
+    width: 300px;
+    margin-left: 25px;
+   }
+  
+  
+}
