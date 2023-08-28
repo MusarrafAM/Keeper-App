@@ -4,7 +4,7 @@ function Footer() {
 
     <footer>
       <p className="copyright">Copyright ⓒ {year}</p>
-      <p>Developed by <a className="myName" href="https://www.linkedin.com/in/muhammed-musarraf/">Musarraf</a> with <span>❤</span></p>
+      <p>Developed by <a className="myName" href="https://musarraf.netlify.app/">Musarraf</a> with <span>❤</span></p>
       
     </footer>
   );
